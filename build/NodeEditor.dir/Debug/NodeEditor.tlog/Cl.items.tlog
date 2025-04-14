@@ -1,0 +1,9 @@
+D:\NodeEditor\src\main.cpp;D:\NodeEditor\build\NodeEditor.dir\Debug\main.obj
+D:\NodeEditor\src\glad.c;D:\NodeEditor\build\NodeEditor.dir\Debug\glad.obj
+D:\NodeEditor\libs\imgui\backends\imgui_impl_glfw.cpp;D:\NodeEditor\build\NodeEditor.dir\Debug\imgui_impl_glfw.obj
+D:\NodeEditor\libs\imgui\backends\imgui_impl_opengl3.cpp;D:\NodeEditor\build\NodeEditor.dir\Debug\imgui_impl_opengl3.obj
+D:\NodeEditor\libs\imgui\imgui.cpp;D:\NodeEditor\build\NodeEditor.dir\Debug\imgui.obj
+D:\NodeEditor\libs\imgui\imgui_demo.cpp;D:\NodeEditor\build\NodeEditor.dir\Debug\imgui_demo.obj
+D:\NodeEditor\libs\imgui\imgui_draw.cpp;D:\NodeEditor\build\NodeEditor.dir\Debug\imgui_draw.obj
+D:\NodeEditor\libs\imgui\imgui_tables.cpp;D:\NodeEditor\build\NodeEditor.dir\Debug\imgui_tables.obj
+D:\NodeEditor\libs\imgui\imgui_widgets.cpp;D:\NodeEditor\build\NodeEditor.dir\Debug\imgui_widgets.obj

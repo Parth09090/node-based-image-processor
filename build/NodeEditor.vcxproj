@@ -335,6 +335,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="D:\node-based-image-processor\libs\imgui\imgui_tables.cpp" />
     <ClCompile Include="D:\node-based-image-processor\libs\imgui\imgui_widgets.cpp" />
     <ClCompile Include="D:\node-based-image-processor\nodes\BlurNode.cpp" />
+    <ClCompile Include="D:\node-based-image-processor\nodes\EdgeDetectionNode.cpp" />
     <ClCompile Include="D:\node-based-image-processor\nodes\ThresholdNode.cpp" />
   </ItemGroup>
   <ItemGroup>

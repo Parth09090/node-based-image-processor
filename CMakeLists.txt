@@ -41,6 +41,7 @@ include_directories(libs/imgui/backends)
 file(GLOB NODE_SRC
     nodes/BlurNode.cpp  # Ensure BlurNode is included here
     nodes/ThresholdNode.cpp
+    nodes/EdgeDetectionNode.cpp
 )
 
 # ========================

@@ -8,3 +8,4 @@ D:\node-based-image-processor\libs\imgui\imgui_draw.cpp;D:\node-based-image-proc
 D:\node-based-image-processor\libs\imgui\imgui_tables.cpp;D:\node-based-image-processor\build\NodeEditor.dir\Debug\imgui_tables.obj
 D:\node-based-image-processor\libs\imgui\imgui_widgets.cpp;D:\node-based-image-processor\build\NodeEditor.dir\Debug\imgui_widgets.obj
 D:\node-based-image-processor\nodes\BlurNode.cpp;D:\node-based-image-processor\build\NodeEditor.dir\Debug\BlurNode.obj
+D:\node-based-image-processor\nodes\ThresholdNode.cpp;D:\node-based-image-processor\build\NodeEditor.dir\Debug\ThresholdNode.obj

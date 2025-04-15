@@ -58,6 +58,16 @@ public:
 
     // Override getOutput to return the first channel (default)
     cv::Mat getOutput() override {
-        return getChannel(0);  // Default output is the first channel (Red, for example)
+        if (grayscaleOutput) {
+            return getChannel(0);  // Default grayscale channel
+        } else {
+            if (channels.size() == 3) {
+                cv::Mat merged;
+                cv::merge(channels, merged);
+                return merged;  // Return full color image
+            }
+            return cv::Mat();
+        }
     }
+    
 };

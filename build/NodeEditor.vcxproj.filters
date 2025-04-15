@@ -31,6 +31,9 @@
     <ClCompile Include="D:\node-based-image-processor\nodes\BlurNode.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="D:\node-based-image-processor\nodes\ThresholdNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="D:\node-based-image-processor\CMakeLists.txt" />

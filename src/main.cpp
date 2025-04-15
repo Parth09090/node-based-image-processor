@@ -10,6 +10,7 @@
 #include "../nodes/OutputNode.h"
 #include "../nodes/ColorChannelSplitterNode.h"
 #include "../nodes/BlurNode.h" // ✅ Added BlurNode include
+#include "../nodes/ThresholdNode.h" // ✅ Added ThresholdNode include
 #include "../GraphEngine.h"
 
 // GUI
@@ -58,11 +59,14 @@ int main() {
     BlurNode* blurNode = new BlurNode(5, false); // ✅ Added blur node
     blurNode->inputs.push_back(bcNode);
 
+    ThresholdNode* thresholdNode = new ThresholdNode(128, ThresholdNode::BINARY); // ✅ Added threshold node
+    thresholdNode->inputs.push_back(blurNode); // Connect the blur node to the threshold node
+
     ColorChannelSplitterNode* splitter = new ColorChannelSplitterNode(true);
-    splitter->inputs.push_back(blurNode); // ✅ Connected blurNode instead of bcNode
+    splitter->inputs.push_back(thresholdNode); // Connect threshold node instead of blurNode
 
     OutputNode* outputFull = new OutputNode("output_full", "jpg", 90);
-    outputFull->inputs.push_back(blurNode); // ✅ Connected blurNode instead of bcNode
+    outputFull->inputs.push_back(thresholdNode); // Connect threshold node instead of blurNode
 
     OutputNode* outputChannel = new OutputNode("output_channel", "jpg", 90);
     outputChannel->inputs.push_back(splitter);
@@ -75,6 +79,8 @@ int main() {
     bool useChannelOutput = false;
     int blurRadius = 5;
     bool directionalBlur = false;
+    float thresholdValue = 128.0f; // Threshold value for thresholding
+    int thresholdMethod = ThresholdNode::BINARY; // Threshold method (binary by default)
 
     GLuint texID = 0;
     cv::Mat processed;
@@ -94,9 +100,17 @@ int main() {
         ImGui::SliderFloat("Contrast", &contrast, 0.0f, 3.0f);
         ImGui::Checkbox("Show Channel Output", &useChannelOutput);
 
+        // Threshold controls
+        ImGui::SliderFloat("Threshold Value", &thresholdValue, 0.0f, 255.0f);
+        const char* thresholdMethods[] = { "Binary", "Adaptive", "Otsu" };
+        if (ImGui::Combo("Threshold Method", &thresholdMethod, thresholdMethods, IM_ARRAYSIZE(thresholdMethods))) {
+            thresholdNode->setParameters(thresholdValue, thresholdMethod);  // Set threshold parameters immediately
+        }
+
         if (ImGui::Button("Process Image")) {
             bcNode->setParameters(contrast, brightness);
             blurNode->setParameters(blurRadius, directionalBlur);
+            thresholdNode->setParameters(thresholdValue, thresholdMethod);
 
             std::unordered_set<Node*> visited;
 
@@ -150,6 +164,14 @@ int main() {
         }
         ImGui::End();
 
+        // === Threshold Node UI ===
+        ImGui::Begin("🔲 Threshold Node");
+        ImGui::SliderFloat("Threshold Value", &thresholdValue, 0.0f, 255.0f);
+        if (ImGui::Combo("Threshold Method", &thresholdMethod, thresholdMethods, IM_ARRAYSIZE(thresholdMethods))) {
+            thresholdNode->setParameters(thresholdValue, thresholdMethod);
+        }
+        ImGui::End();
+
         // === Color Channel Splitter Node UI ===
         ImGui::Begin("🎨 Channel Splitter");
         ImGui::Text("Outputs RGB/RGBA channels as grayscale");
@@ -164,6 +186,7 @@ int main() {
         if (ImGui::Button("Process Image")) {
             bcNode->setParameters(contrast, brightness);
             blurNode->setParameters(blurRadius, directionalBlur);
+            thresholdNode->setParameters(thresholdValue, thresholdMethod);
 
             std::unordered_set<Node*> visited;
             if (useChannelOutput)
@@ -199,6 +222,7 @@ int main() {
     delete inputNode;
     delete bcNode;
     delete blurNode;
+    delete thresholdNode; // Cleanup ThresholdNode
     delete splitter;
     delete outputFull;
     delete outputChannel;

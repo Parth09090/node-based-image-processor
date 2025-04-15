@@ -36,12 +36,20 @@ include_directories(libs/imgui)
 include_directories(libs/imgui/backends)
 
 # ========================
+# Add Node Files
+# ========================
+file(GLOB NODE_SRC
+    nodes/BlurNode.cpp  # Ensure BlurNode is included here
+)
+
+# ========================
 # Executable
 # ========================
 add_executable(${PROJECT_NAME}
     src/main.cpp
     ${GLAD_SRC}
     ${IMGUI_SRC}
+    ${NODE_SRC}  # Add the nodes source files
 )
 
 # ========================

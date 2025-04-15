@@ -1,6 +1,6 @@
-^D:\NODEEDITOR\LIBS\GLFW\SRC\CMAKELISTS.TXT
+^D:\NODE-BASED-IMAGE-PROCESSOR\LIBS\GLFW\SRC\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\mingw64\bin\cmake.exe" -SD:/NodeEditor -BD:/NodeEditor/build --check-stamp-file D:/NodeEditor/build/libs/glfw/src/CMakeFiles/generate.stamp
+"C:\Program Files\mingw64\bin\cmake.exe" -SD:/node-based-image-processor -BD:/node-based-image-processor/build --check-stamp-file D:/node-based-image-processor/build/libs/glfw/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

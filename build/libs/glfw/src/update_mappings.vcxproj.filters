@@ -1,24 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="D:\NodeEditor\build\CMakeFiles\18b4b766244a5a906fe760a711598442\update_mappings.rule">
+    <CustomBuild Include="D:\node-based-image-processor\build\CMakeFiles\380d490c60932b0b30a720855d1a5cfe\update_mappings.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="D:\NodeEditor\libs\glfw\src\CMakeLists.txt" />
+    <CustomBuild Include="D:\node-based-image-processor\libs\glfw\src\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="D:\NodeEditor\libs\glfw\src\mappings.h.in">
+    <None Include="D:\node-based-image-processor\libs\glfw\src\mappings.h.in">
       <Filter>Header Files</Filter>
     </None>
-    <None Include="D:\NodeEditor\libs\glfw\CMake\GenerateMappings.cmake" />
-    <None Include="D:\NodeEditor\build\libs\glfw\src\CMakeFiles\update_mappings" />
+    <None Include="D:\node-based-image-processor\libs\glfw\CMake\GenerateMappings.cmake" />
+    <None Include="D:\node-based-image-processor\build\libs\glfw\src\CMakeFiles\update_mappings" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{C43049B9-187E-3FE3-A03A-5C05F7F79F95}</UniqueIdentifier>
+      <UniqueIdentifier>{BC2E4D01-339F-3295-9089-C0823FA06AA7}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{DC190964-31BE-302C-B07C-9FB80AD286E7}</UniqueIdentifier>
+      <UniqueIdentifier>{30EF132C-06F8-392E-BC1B-F5A04F0EA6FA}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

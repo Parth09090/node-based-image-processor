@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{DC215E68-F813-3D55-A305-165D1017C5F3}</ProjectGuid>
+    <ProjectGuid>{A05BB9BB-7084-3AFA-8D28-79C55A0A98C8}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\NodeEditor\build\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\node-based-image-processor\build\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NodeEditor.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NodeEditor</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\NodeEditor\build\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\node-based-image-processor\build\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NodeEditor.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NodeEditor</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\NodeEditor\build\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\node-based-image-processor\build\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">NodeEditor.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">NodeEditor</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\NodeEditor\build\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\node-based-image-processor\build\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">NodeEditor.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">NodeEditor</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\NodeEditor\libs\glfw\include;D:\NodeEditor\include;D:\NodeEditor\libs\imgui;D:\NodeEditor\libs\imgui\backends;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\node-based-image-processor\libs\glfw\include;D:\node-based-image-processor\include;D:\node-based-image-processor\libs\imgui;D:\node-based-image-processor\libs\imgui\backends;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/PARTH/Downloads/opencv/build/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -106,10 +106,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\NodeEditor\libs\glfw\include;D:\NodeEditor\include;D:\NodeEditor\libs\imgui;D:\NodeEditor\libs\imgui\backends;C:\Users\PARTH\Downloads\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\node-based-image-processor\libs\glfw\include;D:\node-based-image-processor\include;D:\node-based-image-processor\libs\imgui;D:\node-based-image-processor\libs\imgui\backends;C:\Users\PARTH\Downloads\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\NodeEditor\libs\glfw\include;D:\NodeEditor\include;D:\NodeEditor\libs\imgui;D:\NodeEditor\libs\imgui\backends;C:\Users\PARTH\Downloads\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\node-based-image-processor\libs\glfw\include;D:\node-based-image-processor\include;D:\node-based-image-processor\libs\imgui;D:\node-based-image-processor\libs\imgui\backends;C:\Users\PARTH\Downloads\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -122,8 +122,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/NodeEditor/build/Debug/NodeEditor.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/NodeEditor/build/Debug/NodeEditor.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/node-based-image-processor/build/Debug/NodeEditor.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/node-based-image-processor/build/Debug/NodeEditor.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -132,7 +132,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\NodeEditor\libs\glfw\include;D:\NodeEditor\include;D:\NodeEditor\libs\imgui;D:\NodeEditor\libs\imgui\backends;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\node-based-image-processor\libs\glfw\include;D:\node-based-image-processor\include;D:\node-based-image-processor\libs\imgui;D:\node-based-image-processor\libs\imgui\backends;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/PARTH/Downloads/opencv/build/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -152,10 +152,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\NodeEditor\libs\glfw\include;D:\NodeEditor\include;D:\NodeEditor\libs\imgui;D:\NodeEditor\libs\imgui\backends;C:\Users\PARTH\Downloads\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\node-based-image-processor\libs\glfw\include;D:\node-based-image-processor\include;D:\node-based-image-processor\libs\imgui;D:\node-based-image-processor\libs\imgui\backends;C:\Users\PARTH\Downloads\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\NodeEditor\libs\glfw\include;D:\NodeEditor\include;D:\NodeEditor\libs\imgui;D:\NodeEditor\libs\imgui\backends;C:\Users\PARTH\Downloads\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\node-based-image-processor\libs\glfw\include;D:\node-based-image-processor\include;D:\node-based-image-processor\libs\imgui;D:\node-based-image-processor\libs\imgui\backends;C:\Users\PARTH\Downloads\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -168,8 +168,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/NodeEditor/build/Release/NodeEditor.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/NodeEditor/build/Release/NodeEditor.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/node-based-image-processor/build/Release/NodeEditor.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/node-based-image-processor/build/Release/NodeEditor.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -178,7 +178,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\NodeEditor\libs\glfw\include;D:\NodeEditor\include;D:\NodeEditor\libs\imgui;D:\NodeEditor\libs\imgui\backends;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\node-based-image-processor\libs\glfw\include;D:\node-based-image-processor\include;D:\node-based-image-processor\libs\imgui;D:\node-based-image-processor\libs\imgui\backends;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/PARTH/Downloads/opencv/build/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -198,10 +198,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\NodeEditor\libs\glfw\include;D:\NodeEditor\include;D:\NodeEditor\libs\imgui;D:\NodeEditor\libs\imgui\backends;C:\Users\PARTH\Downloads\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\node-based-image-processor\libs\glfw\include;D:\node-based-image-processor\include;D:\node-based-image-processor\libs\imgui;D:\node-based-image-processor\libs\imgui\backends;C:\Users\PARTH\Downloads\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\NodeEditor\libs\glfw\include;D:\NodeEditor\include;D:\NodeEditor\libs\imgui;D:\NodeEditor\libs\imgui\backends;C:\Users\PARTH\Downloads\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\node-based-image-processor\libs\glfw\include;D:\node-based-image-processor\include;D:\node-based-image-processor\libs\imgui;D:\node-based-image-processor\libs\imgui\backends;C:\Users\PARTH\Downloads\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -214,8 +214,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/NodeEditor/build/MinSizeRel/NodeEditor.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/NodeEditor/build/MinSizeRel/NodeEditor.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/node-based-image-processor/build/MinSizeRel/NodeEditor.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/node-based-image-processor/build/MinSizeRel/NodeEditor.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -224,7 +224,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\NodeEditor\libs\glfw\include;D:\NodeEditor\include;D:\NodeEditor\libs\imgui;D:\NodeEditor\libs\imgui\backends;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\node-based-image-processor\libs\glfw\include;D:\node-based-image-processor\include;D:\node-based-image-processor\libs\imgui;D:\node-based-image-processor\libs\imgui\backends;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/PARTH/Downloads/opencv/build/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -243,10 +243,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\NodeEditor\libs\glfw\include;D:\NodeEditor\include;D:\NodeEditor\libs\imgui;D:\NodeEditor\libs\imgui\backends;C:\Users\PARTH\Downloads\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\node-based-image-processor\libs\glfw\include;D:\node-based-image-processor\include;D:\node-based-image-processor\libs\imgui;D:\node-based-image-processor\libs\imgui\backends;C:\Users\PARTH\Downloads\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\NodeEditor\libs\glfw\include;D:\NodeEditor\include;D:\NodeEditor\libs\imgui;D:\NodeEditor\libs\imgui\backends;C:\Users\PARTH\Downloads\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\node-based-image-processor\libs\glfw\include;D:\node-based-image-processor\include;D:\node-based-image-processor\libs\imgui;D:\node-based-image-processor\libs\imgui\backends;C:\Users\PARTH\Downloads\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -259,8 +259,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/NodeEditor/build/RelWithDebInfo/NodeEditor.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/NodeEditor/build/RelWithDebInfo/NodeEditor.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/node-based-image-processor/build/RelWithDebInfo/NodeEditor.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/node-based-image-processor/build/RelWithDebInfo/NodeEditor.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -268,11 +268,11 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\NodeEditor\CMakeLists.txt">
+    <CustomBuild Include="D:\node-based-image-processor\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/NodeEditor/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/node-based-image-processor/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\mingw64\bin\cmake.exe" -SD:/NodeEditor -BD:/NodeEditor/build --check-stamp-file D:/NodeEditor/build/CMakeFiles/generate.stamp
+"C:\Program Files\mingw64\bin\cmake.exe" -SD:/node-based-image-processor -BD:/node-based-image-processor/build --check-stamp-file D:/node-based-image-processor/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -280,12 +280,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Users\PARTH\Downloads\opencv\build\OpenCVConfig-version.cmake;C:\Users\PARTH\Downloads\opencv\build\OpenCVConfig.cmake;C:\Users\PARTH\Downloads\opencv\build\x64\vc16\lib\OpenCVConfig.cmake;C:\Users\PARTH\Downloads\opencv\build\x64\vc16\lib\OpenCVModules-debug.cmake;C:\Users\PARTH\Downloads\opencv\build\x64\vc16\lib\OpenCVModules-release.cmake;C:\Users\PARTH\Downloads\opencv\build\x64\vc16\lib\OpenCVModules.cmake;D:\NodeEditor\build\CMakeFiles\3.26.4\CMakeCCompiler.cmake;D:\NodeEditor\build\CMakeFiles\3.26.4\CMakeCXXCompiler.cmake;D:\NodeEditor\build\CMakeFiles\3.26.4\CMakeRCCompiler.cmake;D:\NodeEditor\build\CMakeFiles\3.26.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\NodeEditor\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Users\PARTH\Downloads\opencv\build\OpenCVConfig-version.cmake;C:\Users\PARTH\Downloads\opencv\build\OpenCVConfig.cmake;C:\Users\PARTH\Downloads\opencv\build\x64\vc16\lib\OpenCVConfig.cmake;C:\Users\PARTH\Downloads\opencv\build\x64\vc16\lib\OpenCVModules-debug.cmake;C:\Users\PARTH\Downloads\opencv\build\x64\vc16\lib\OpenCVModules-release.cmake;C:\Users\PARTH\Downloads\opencv\build\x64\vc16\lib\OpenCVModules.cmake;D:\node-based-image-processor\build\CMakeFiles\3.26.4\CMakeCCompiler.cmake;D:\node-based-image-processor\build\CMakeFiles\3.26.4\CMakeCXXCompiler.cmake;D:\node-based-image-processor\build\CMakeFiles\3.26.4\CMakeRCCompiler.cmake;D:\node-based-image-processor\build\CMakeFiles\3.26.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\node-based-image-processor\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/NodeEditor/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/node-based-image-processor/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\mingw64\bin\cmake.exe" -SD:/NodeEditor -BD:/NodeEditor/build --check-stamp-file D:/NodeEditor/build/CMakeFiles/generate.stamp
+"C:\Program Files\mingw64\bin\cmake.exe" -SD:/node-based-image-processor -BD:/node-based-image-processor/build --check-stamp-file D:/node-based-image-processor/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -293,12 +293,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Users\PARTH\Downloads\opencv\build\OpenCVConfig-version.cmake;C:\Users\PARTH\Downloads\opencv\build\OpenCVConfig.cmake;C:\Users\PARTH\Downloads\opencv\build\x64\vc16\lib\OpenCVConfig.cmake;C:\Users\PARTH\Downloads\opencv\build\x64\vc16\lib\OpenCVModules-debug.cmake;C:\Users\PARTH\Downloads\opencv\build\x64\vc16\lib\OpenCVModules-release.cmake;C:\Users\PARTH\Downloads\opencv\build\x64\vc16\lib\OpenCVModules.cmake;D:\NodeEditor\build\CMakeFiles\3.26.4\CMakeCCompiler.cmake;D:\NodeEditor\build\CMakeFiles\3.26.4\CMakeCXXCompiler.cmake;D:\NodeEditor\build\CMakeFiles\3.26.4\CMakeRCCompiler.cmake;D:\NodeEditor\build\CMakeFiles\3.26.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\NodeEditor\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Users\PARTH\Downloads\opencv\build\OpenCVConfig-version.cmake;C:\Users\PARTH\Downloads\opencv\build\OpenCVConfig.cmake;C:\Users\PARTH\Downloads\opencv\build\x64\vc16\lib\OpenCVConfig.cmake;C:\Users\PARTH\Downloads\opencv\build\x64\vc16\lib\OpenCVModules-debug.cmake;C:\Users\PARTH\Downloads\opencv\build\x64\vc16\lib\OpenCVModules-release.cmake;C:\Users\PARTH\Downloads\opencv\build\x64\vc16\lib\OpenCVModules.cmake;D:\node-based-image-processor\build\CMakeFiles\3.26.4\CMakeCCompiler.cmake;D:\node-based-image-processor\build\CMakeFiles\3.26.4\CMakeCXXCompiler.cmake;D:\node-based-image-processor\build\CMakeFiles\3.26.4\CMakeRCCompiler.cmake;D:\node-based-image-processor\build\CMakeFiles\3.26.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\node-based-image-processor\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/NodeEditor/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/node-based-image-processor/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\mingw64\bin\cmake.exe" -SD:/NodeEditor -BD:/NodeEditor/build --check-stamp-file D:/NodeEditor/build/CMakeFiles/generate.stamp
+"C:\Program Files\mingw64\bin\cmake.exe" -SD:/node-based-image-processor -BD:/node-based-image-processor/build --check-stamp-file D:/node-based-image-processor/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -306,12 +306,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Users\PARTH\Downloads\opencv\build\OpenCVConfig-version.cmake;C:\Users\PARTH\Downloads\opencv\build\OpenCVConfig.cmake;C:\Users\PARTH\Downloads\opencv\build\x64\vc16\lib\OpenCVConfig.cmake;C:\Users\PARTH\Downloads\opencv\build\x64\vc16\lib\OpenCVModules-debug.cmake;C:\Users\PARTH\Downloads\opencv\build\x64\vc16\lib\OpenCVModules-release.cmake;C:\Users\PARTH\Downloads\opencv\build\x64\vc16\lib\OpenCVModules.cmake;D:\NodeEditor\build\CMakeFiles\3.26.4\CMakeCCompiler.cmake;D:\NodeEditor\build\CMakeFiles\3.26.4\CMakeCXXCompiler.cmake;D:\NodeEditor\build\CMakeFiles\3.26.4\CMakeRCCompiler.cmake;D:\NodeEditor\build\CMakeFiles\3.26.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\NodeEditor\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Users\PARTH\Downloads\opencv\build\OpenCVConfig-version.cmake;C:\Users\PARTH\Downloads\opencv\build\OpenCVConfig.cmake;C:\Users\PARTH\Downloads\opencv\build\x64\vc16\lib\OpenCVConfig.cmake;C:\Users\PARTH\Downloads\opencv\build\x64\vc16\lib\OpenCVModules-debug.cmake;C:\Users\PARTH\Downloads\opencv\build\x64\vc16\lib\OpenCVModules-release.cmake;C:\Users\PARTH\Downloads\opencv\build\x64\vc16\lib\OpenCVModules.cmake;D:\node-based-image-processor\build\CMakeFiles\3.26.4\CMakeCCompiler.cmake;D:\node-based-image-processor\build\CMakeFiles\3.26.4\CMakeCXXCompiler.cmake;D:\node-based-image-processor\build\CMakeFiles\3.26.4\CMakeRCCompiler.cmake;D:\node-based-image-processor\build\CMakeFiles\3.26.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\node-based-image-processor\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/NodeEditor/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/node-based-image-processor/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\mingw64\bin\cmake.exe" -SD:/NodeEditor -BD:/NodeEditor/build --check-stamp-file D:/NodeEditor/build/CMakeFiles/generate.stamp
+"C:\Program Files\mingw64\bin\cmake.exe" -SD:/node-based-image-processor -BD:/node-based-image-processor/build --check-stamp-file D:/node-based-image-processor/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -319,31 +319,32 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Users\PARTH\Downloads\opencv\build\OpenCVConfig-version.cmake;C:\Users\PARTH\Downloads\opencv\build\OpenCVConfig.cmake;C:\Users\PARTH\Downloads\opencv\build\x64\vc16\lib\OpenCVConfig.cmake;C:\Users\PARTH\Downloads\opencv\build\x64\vc16\lib\OpenCVModules-debug.cmake;C:\Users\PARTH\Downloads\opencv\build\x64\vc16\lib\OpenCVModules-release.cmake;C:\Users\PARTH\Downloads\opencv\build\x64\vc16\lib\OpenCVModules.cmake;D:\NodeEditor\build\CMakeFiles\3.26.4\CMakeCCompiler.cmake;D:\NodeEditor\build\CMakeFiles\3.26.4\CMakeCXXCompiler.cmake;D:\NodeEditor\build\CMakeFiles\3.26.4\CMakeRCCompiler.cmake;D:\NodeEditor\build\CMakeFiles\3.26.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\NodeEditor\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Users\PARTH\Downloads\opencv\build\OpenCVConfig-version.cmake;C:\Users\PARTH\Downloads\opencv\build\OpenCVConfig.cmake;C:\Users\PARTH\Downloads\opencv\build\x64\vc16\lib\OpenCVConfig.cmake;C:\Users\PARTH\Downloads\opencv\build\x64\vc16\lib\OpenCVModules-debug.cmake;C:\Users\PARTH\Downloads\opencv\build\x64\vc16\lib\OpenCVModules-release.cmake;C:\Users\PARTH\Downloads\opencv\build\x64\vc16\lib\OpenCVModules.cmake;D:\node-based-image-processor\build\CMakeFiles\3.26.4\CMakeCCompiler.cmake;D:\node-based-image-processor\build\CMakeFiles\3.26.4\CMakeCXXCompiler.cmake;D:\node-based-image-processor\build\CMakeFiles\3.26.4\CMakeRCCompiler.cmake;D:\node-based-image-processor\build\CMakeFiles\3.26.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\node-based-image-processor\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="D:\NodeEditor\src\main.cpp" />
-    <ClCompile Include="D:\NodeEditor\src\glad.c" />
-    <ClCompile Include="D:\NodeEditor\libs\imgui\backends\imgui_impl_glfw.cpp" />
-    <ClCompile Include="D:\NodeEditor\libs\imgui\backends\imgui_impl_opengl3.cpp" />
-    <ClCompile Include="D:\NodeEditor\libs\imgui\imgui.cpp" />
-    <ClCompile Include="D:\NodeEditor\libs\imgui\imgui_demo.cpp" />
-    <ClCompile Include="D:\NodeEditor\libs\imgui\imgui_draw.cpp" />
-    <ClCompile Include="D:\NodeEditor\libs\imgui\imgui_tables.cpp" />
-    <ClCompile Include="D:\NodeEditor\libs\imgui\imgui_widgets.cpp" />
+    <ClCompile Include="D:\node-based-image-processor\src\main.cpp" />
+    <ClCompile Include="D:\node-based-image-processor\src\glad.c" />
+    <ClCompile Include="D:\node-based-image-processor\libs\imgui\backends\imgui_impl_glfw.cpp" />
+    <ClCompile Include="D:\node-based-image-processor\libs\imgui\backends\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="D:\node-based-image-processor\libs\imgui\imgui.cpp" />
+    <ClCompile Include="D:\node-based-image-processor\libs\imgui\imgui_demo.cpp" />
+    <ClCompile Include="D:\node-based-image-processor\libs\imgui\imgui_draw.cpp" />
+    <ClCompile Include="D:\node-based-image-processor\libs\imgui\imgui_tables.cpp" />
+    <ClCompile Include="D:\node-based-image-processor\libs\imgui\imgui_widgets.cpp" />
+    <ClCompile Include="D:\node-based-image-processor\nodes\BlurNode.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\NodeEditor\build\ZERO_CHECK.vcxproj">
-      <Project>{B221C805-4ED5-334D-95AB-0FA0D1E8A337}</Project>
+    <ProjectReference Include="D:\node-based-image-processor\build\ZERO_CHECK.vcxproj">
+      <Project>{4563E828-5EA5-3954-9B36-58D2F7A7E9F2}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="D:\NodeEditor\build\libs\glfw\src\glfw.vcxproj">
-      <Project>{4BAF3F5B-FFD9-32E1-B374-96F2AD6E5BDD}</Project>
+    <ProjectReference Include="D:\node-based-image-processor\build\libs\glfw\src\glfw.vcxproj">
+      <Project>{1E3A676B-7563-306A-A049-957032B4F1BE}</Project>
       <Name>glfw</Name>
     </ProjectReference>
   </ItemGroup>

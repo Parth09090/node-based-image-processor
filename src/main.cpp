@@ -8,7 +8,8 @@
 #include "../nodes/ImageInputNode.h"
 #include "../nodes/BrightnessContrastNode.h"
 #include "../nodes/OutputNode.h"
-#include "../nodes/ColorChannelSplitterNode.h" // Include the new node
+#include "../nodes/ColorChannelSplitterNode.h"
+#include "../nodes/BlurNode.h" // ✅ Added BlurNode include
 #include "../GraphEngine.h"
 
 // GUI
@@ -54,11 +55,14 @@ int main() {
     BrightnessContrastNode* bcNode = new BrightnessContrastNode(1.0, 0);
     bcNode->inputs.push_back(inputNode);
 
+    BlurNode* blurNode = new BlurNode(5, false); // ✅ Added blur node
+    blurNode->inputs.push_back(bcNode);
+
     ColorChannelSplitterNode* splitter = new ColorChannelSplitterNode(true);
-    splitter->inputs.push_back(bcNode);
+    splitter->inputs.push_back(blurNode); // ✅ Connected blurNode instead of bcNode
 
     OutputNode* outputFull = new OutputNode("output_full", "jpg", 90);
-    outputFull->inputs.push_back(bcNode);
+    outputFull->inputs.push_back(blurNode); // ✅ Connected blurNode instead of bcNode
 
     OutputNode* outputChannel = new OutputNode("output_channel", "jpg", 90);
     outputChannel->inputs.push_back(splitter);
@@ -69,6 +73,8 @@ int main() {
     float brightness = 0.0f;
     float contrast = 1.0f;
     bool useChannelOutput = false;
+    int blurRadius = 5;
+    bool directionalBlur = false;
 
     GLuint texID = 0;
     cv::Mat processed;
@@ -90,6 +96,8 @@ int main() {
 
         if (ImGui::Button("Process Image")) {
             bcNode->setParameters(contrast, brightness);
+            blurNode->setParameters(blurRadius, directionalBlur);
+
             std::unordered_set<Node*> visited;
 
             if (useChannelOutput) {
@@ -121,7 +129,7 @@ int main() {
         // === Image Input Node UI ===
         ImGui::Begin("📷 Image Input");
         if (ImGui::Button("Reload Image")) {
-            inputNode->reload(inputNode->getFilename().c_str());  // You can implement reload or re-assign logic
+            inputNode->reload(inputNode->getFilename().c_str());
         }
         ImGui::Text("Loaded: %s", inputNode->getFilename().c_str());
         ImGui::End();
@@ -132,13 +140,22 @@ int main() {
         ImGui::SliderFloat("Contrast", &contrast, 0.0f, 3.0f);
         ImGui::End();
 
+        // === 🌀 Blur Node UI ===
+        ImGui::Begin("🌀 Blur Node");
+        ImGui::SliderInt("Radius", &blurRadius, 1, 20);
+        ImGui::Checkbox("Directional (Horizontal Only)", &directionalBlur);
+        if (ImGui::Button("Preview Kernel")) {
+            blurNode->setParameters(blurRadius, directionalBlur);
+            blurNode->showKernelPreview();
+        }
+        ImGui::End();
+
         // === Color Channel Splitter Node UI ===
         ImGui::Begin("🎨 Channel Splitter");
         ImGui::Text("Outputs RGB/RGBA channels as grayscale");
-        // Display checkbox to enable/disable grayscale output
-        bool grayscale = splitter->getGrayscaleOutput();  // Get the current state of grayscaleOutput
-        if (ImGui::Checkbox("Grayscale Output", &grayscale)) {  // Check if checkbox is toggled
-            splitter->setGrayscaleOutput(grayscale);  // Update the node with the new value
+        bool grayscale = splitter->getGrayscaleOutput();
+        if (ImGui::Checkbox("Grayscale Output", &grayscale)) {
+            splitter->setGrayscaleOutput(grayscale);
         }
         ImGui::End();
 
@@ -146,6 +163,7 @@ int main() {
         ImGui::Begin("💾 Output");
         if (ImGui::Button("Process Image")) {
             bcNode->setParameters(contrast, brightness);
+            blurNode->setParameters(blurRadius, directionalBlur);
 
             std::unordered_set<Node*> visited;
             if (useChannelOutput)
@@ -180,6 +198,7 @@ int main() {
     // Cleanup
     delete inputNode;
     delete bcNode;
+    delete blurNode;
     delete splitter;
     delete outputFull;
     delete outputChannel;

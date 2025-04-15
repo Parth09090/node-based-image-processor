@@ -1,6 +1,6 @@
-^D:\NODEEDITOR\BUILD\CMAKEFILES\E0A7C256A9CE0B9743B9BCB72D32F5D5\GENERATE.STAMP.RULE
+^D:\NODE-BASED-IMAGE-PROCESSOR\BUILD\CMAKEFILES\457136009F1D50F291BD9783972030E1\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\mingw64\bin\cmake.exe" -SD:/NodeEditor -BD:/NodeEditor/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/NodeEditor/build/NodeEditor.sln
+"C:\Program Files\mingw64\bin\cmake.exe" -SD:/node-based-image-processor -BD:/node-based-image-processor/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/node-based-image-processor/build/NodeEditor.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

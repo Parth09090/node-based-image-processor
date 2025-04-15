@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{A8FCD429-2844-3FC8-B3A9-70445AFE282B}</ProjectGuid>
+    <ProjectGuid>{FEA0131E-77E8-32AC-B049-EF0F89FED0A2}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -105,10 +105,10 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\NodeEditor\build\CMakeFiles\f96fe4860b70d338c0acad969a2c84dd\uninstall.rule">
+    <CustomBuild Include="D:\node-based-image-processor\build\CMakeFiles\5c82438d74566778092f4fb9ed7ded43\uninstall.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\mingw64\bin\cmake.exe" -P D:/NodeEditor/build/libs/glfw/cmake_uninstall.cmake
+"C:\Program Files\mingw64\bin\cmake.exe" -P D:/node-based-image-processor/build/libs/glfw/cmake_uninstall.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -117,12 +117,12 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\NodeEditor\build\libs\glfw\CMakeFiles\uninstall</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\node-based-image-processor\build\libs\glfw\CMakeFiles\uninstall</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\mingw64\bin\cmake.exe" -P D:/NodeEditor/build/libs/glfw/cmake_uninstall.cmake
+"C:\Program Files\mingw64\bin\cmake.exe" -P D:/node-based-image-processor/build/libs/glfw/cmake_uninstall.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -131,12 +131,12 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\NodeEditor\build\libs\glfw\CMakeFiles\uninstall</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\node-based-image-processor\build\libs\glfw\CMakeFiles\uninstall</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\mingw64\bin\cmake.exe" -P D:/NodeEditor/build/libs/glfw/cmake_uninstall.cmake
+"C:\Program Files\mingw64\bin\cmake.exe" -P D:/node-based-image-processor/build/libs/glfw/cmake_uninstall.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -145,12 +145,12 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\NodeEditor\build\libs\glfw\CMakeFiles\uninstall</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\node-based-image-processor\build\libs\glfw\CMakeFiles\uninstall</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\mingw64\bin\cmake.exe" -P D:/NodeEditor/build/libs/glfw/cmake_uninstall.cmake
+"C:\Program Files\mingw64\bin\cmake.exe" -P D:/node-based-image-processor/build/libs/glfw/cmake_uninstall.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -159,17 +159,17 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\NodeEditor\build\libs\glfw\CMakeFiles\uninstall</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\node-based-image-processor\build\libs\glfw\CMakeFiles\uninstall</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\NodeEditor\libs\glfw\CMakeLists.txt">
+    <CustomBuild Include="D:\node-based-image-processor\libs\glfw\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/NodeEditor/libs/glfw/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/node-based-image-processor/libs/glfw/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\mingw64\bin\cmake.exe" -SD:/NodeEditor -BD:/NodeEditor/build --check-stamp-file D:/NodeEditor/build/libs/glfw/CMakeFiles/generate.stamp
+"C:\Program Files\mingw64\bin\cmake.exe" -SD:/node-based-image-processor -BD:/node-based-image-processor/build --check-stamp-file D:/node-based-image-processor/build/libs/glfw/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -177,12 +177,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\mingw64\share\cmake-3.26\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeDependentOption.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\FindThreads.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\GNUInstallDirs.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\WriteBasicConfigVersionFile.cmake;D:\NodeEditor\libs\glfw\CMake\cmake_uninstall.cmake.in;D:\NodeEditor\libs\glfw\CMake\glfw3Config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\NodeEditor\build\libs\glfw\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\mingw64\share\cmake-3.26\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeDependentOption.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\FindThreads.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\GNUInstallDirs.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\WriteBasicConfigVersionFile.cmake;D:\node-based-image-processor\libs\glfw\CMake\cmake_uninstall.cmake.in;D:\node-based-image-processor\libs\glfw\CMake\glfw3Config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\node-based-image-processor\build\libs\glfw\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/NodeEditor/libs/glfw/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/node-based-image-processor/libs/glfw/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\mingw64\bin\cmake.exe" -SD:/NodeEditor -BD:/NodeEditor/build --check-stamp-file D:/NodeEditor/build/libs/glfw/CMakeFiles/generate.stamp
+"C:\Program Files\mingw64\bin\cmake.exe" -SD:/node-based-image-processor -BD:/node-based-image-processor/build --check-stamp-file D:/node-based-image-processor/build/libs/glfw/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -190,12 +190,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\mingw64\share\cmake-3.26\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeDependentOption.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\FindThreads.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\GNUInstallDirs.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\WriteBasicConfigVersionFile.cmake;D:\NodeEditor\libs\glfw\CMake\cmake_uninstall.cmake.in;D:\NodeEditor\libs\glfw\CMake\glfw3Config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\NodeEditor\build\libs\glfw\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\mingw64\share\cmake-3.26\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeDependentOption.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\FindThreads.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\GNUInstallDirs.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\WriteBasicConfigVersionFile.cmake;D:\node-based-image-processor\libs\glfw\CMake\cmake_uninstall.cmake.in;D:\node-based-image-processor\libs\glfw\CMake\glfw3Config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\node-based-image-processor\build\libs\glfw\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/NodeEditor/libs/glfw/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/node-based-image-processor/libs/glfw/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\mingw64\bin\cmake.exe" -SD:/NodeEditor -BD:/NodeEditor/build --check-stamp-file D:/NodeEditor/build/libs/glfw/CMakeFiles/generate.stamp
+"C:\Program Files\mingw64\bin\cmake.exe" -SD:/node-based-image-processor -BD:/node-based-image-processor/build --check-stamp-file D:/node-based-image-processor/build/libs/glfw/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -203,12 +203,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\mingw64\share\cmake-3.26\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeDependentOption.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\FindThreads.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\GNUInstallDirs.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\WriteBasicConfigVersionFile.cmake;D:\NodeEditor\libs\glfw\CMake\cmake_uninstall.cmake.in;D:\NodeEditor\libs\glfw\CMake\glfw3Config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\NodeEditor\build\libs\glfw\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\mingw64\share\cmake-3.26\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeDependentOption.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\FindThreads.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\GNUInstallDirs.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\WriteBasicConfigVersionFile.cmake;D:\node-based-image-processor\libs\glfw\CMake\cmake_uninstall.cmake.in;D:\node-based-image-processor\libs\glfw\CMake\glfw3Config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\node-based-image-processor\build\libs\glfw\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/NodeEditor/libs/glfw/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/node-based-image-processor/libs/glfw/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\mingw64\bin\cmake.exe" -SD:/NodeEditor -BD:/NodeEditor/build --check-stamp-file D:/NodeEditor/build/libs/glfw/CMakeFiles/generate.stamp
+"C:\Program Files\mingw64\bin\cmake.exe" -SD:/node-based-image-processor -BD:/node-based-image-processor/build --check-stamp-file D:/node-based-image-processor/build/libs/glfw/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -216,18 +216,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\mingw64\share\cmake-3.26\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeDependentOption.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\FindThreads.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\GNUInstallDirs.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\WriteBasicConfigVersionFile.cmake;D:\NodeEditor\libs\glfw\CMake\cmake_uninstall.cmake.in;D:\NodeEditor\libs\glfw\CMake\glfw3Config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\NodeEditor\build\libs\glfw\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\mingw64\share\cmake-3.26\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakeDependentOption.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\FindThreads.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\GNUInstallDirs.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\mingw64\share\cmake-3.26\Modules\WriteBasicConfigVersionFile.cmake;D:\node-based-image-processor\libs\glfw\CMake\cmake_uninstall.cmake.in;D:\node-based-image-processor\libs\glfw\CMake\glfw3Config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\node-based-image-processor\build\libs\glfw\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="D:\NodeEditor\build\libs\glfw\CMakeFiles\uninstall">
+    <None Include="D:\node-based-image-processor\build\libs\glfw\CMakeFiles\uninstall">
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\NodeEditor\build\ZERO_CHECK.vcxproj">
-      <Project>{B221C805-4ED5-334D-95AB-0FA0D1E8A337}</Project>
+    <ProjectReference Include="D:\node-based-image-processor\build\ZERO_CHECK.vcxproj">
+      <Project>{4563E828-5EA5-3954-9B36-58D2F7A7E9F2}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

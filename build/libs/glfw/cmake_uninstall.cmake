@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "D:/NodeEditor/build/libs/glfw/install_manifest.txt")
-    message(FATAL_ERROR "Cannot find install manifest: \"D:/NodeEditor/build/libs/glfw/install_manifest.txt\"")
+if (NOT EXISTS "D:/node-based-image-processor/build/libs/glfw/install_manifest.txt")
+    message(FATAL_ERROR "Cannot find install manifest: \"D:/node-based-image-processor/build/libs/glfw/install_manifest.txt\"")
 endif()
 
-file(READ "D:/NodeEditor/build/libs/glfw/install_manifest.txt" files)
+file(READ "D:/node-based-image-processor/build/libs/glfw/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})

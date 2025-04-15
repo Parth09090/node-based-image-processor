@@ -1,4 +1,4 @@
-# Install script for directory: D:/NodeEditor/libs/glfw/docs
+# Install script for directory: D:/node-based-image-processor/libs/glfw/docs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

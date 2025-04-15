@@ -11,6 +11,6 @@ C:/Program Files/mingw64/share/cmake-3.26/Modules/FindThreads.cmake
 C:/Program Files/mingw64/share/cmake-3.26/Modules/GNUInstallDirs.cmake
 C:/Program Files/mingw64/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake
 C:/Program Files/mingw64/share/cmake-3.26/Modules/WriteBasicConfigVersionFile.cmake
-D:/NodeEditor/libs/glfw/CMake/cmake_uninstall.cmake.in
-D:/NodeEditor/libs/glfw/CMake/glfw3Config.cmake.in
-D:/NodeEditor/libs/glfw/CMakeLists.txt
+D:/node-based-image-processor/libs/glfw/CMake/cmake_uninstall.cmake.in
+D:/node-based-image-processor/libs/glfw/CMake/glfw3Config.cmake.in
+D:/node-based-image-processor/libs/glfw/CMakeLists.txt
